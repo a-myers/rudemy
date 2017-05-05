@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/drew8643/rudemy_view_tool
-  revision: 5833741c9be769fef1967f9875f201ca0163885c
-  specs:
-    rudemy_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -143,6 +137,7 @@ GEM
       ffi (>= 0.5.0)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
+    rudemy_view_tool (0.1.0)
     sass (3.4.23)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -200,7 +195,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.0)
   rails (~> 5.0.2)
-  rudemy_view_tool!
+  rudemy_view_tool (~> 0.1.0)
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
