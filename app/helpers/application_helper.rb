@@ -19,4 +19,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    RudemyViewTool::Renderer.copyright 'Andrew Myers', "Don't take my shit. Grow up."
+  end
 end
